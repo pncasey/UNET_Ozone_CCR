@@ -6,7 +6,7 @@ This repository details how to train a UNET style neural network to retrieve Ozo
 
 ## Getting Started
 
-The data used as inputs to the UNET model comes the NOAA Open Data Dissemination (NODD) Program. Amazon Web Services hosts open NOAA and which can be transferred to your machine or cloud infrastructure. This particular project looks at the CrIS Radiance measurements after the NUCAPS Cloud Clearing Radiance (CCR) algorithm has been applied. You can browse those files here https://noaa-jpss.s3.amazonaws.com/index.html#NOAA20/SOUNDINGS/NOAA20_NUCAPS-CCR/. The UNET model is trained against MERRA-2 reanalysis data 
+The data used as inputs to the UNET model comes the NOAA Open Data Dissemination (NODD) Program. Amazon Web Services hosts open NOAA and which can be transferred to your machine or cloud infrastructure. This particular project looks at the CrIS Radiance measurements after the NUCAPS Cloud Clearing Radiance (CCR) algorithm has been applied. You can browse those files here https://noaa-jpss.s3.amazonaws.com/index.html#NOAA20/SOUNDINGS/NOAA20_NUCAPS-CCR/. The UNET model is trained against MERRA-2 reanalysis data.
 
 ## Scripts
 
