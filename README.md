@@ -11,5 +11,5 @@ The data used as inputs to the UNET model comes the NOAA Open Data Dissemination
 ## Scripts
 
 * CCR_Gridding.py: Grids the relevant NUCAPS CCR radiances and satellite geometries to a .5 degree spatial resolution. 
-* Data preprocessing.py: Makes both the input and target data machine learning ready by filling missing values and matching the data spatially. Each day's data is saved as a .npy file for easy loading by the keras/tensorflow data loader.
+* Data_preprocessing.py: Makes both the input and target data machine learning ready by filling missing values and matching the data spatially. Each day's data is saved as a .npy file for easy loading by the keras/tensorflow data loader.
 * UNET_training.py: Creates a custom keras data generator for to call each batch of input and target data. Defines the net work architecture of the model. Trains and saves the trained model.
